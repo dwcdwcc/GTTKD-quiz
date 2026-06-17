@@ -21,7 +21,7 @@ const QUESTIONS_DATA = [
       "D. Ngôn ngữ nói và viết"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "3",
@@ -69,7 +69,7 @@ const QUESTIONS_DATA = [
       "D. Ngôn ngữ nói và ngôn ngữ biểu cảm"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "7",
@@ -117,7 +117,7 @@ const QUESTIONS_DATA = [
       "D. Cùng hướng tới sự đồng thuận"
     ],
     "level": "easy",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "11",
@@ -261,7 +261,7 @@ const QUESTIONS_DATA = [
       "D. Trẻ em"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "23",
@@ -273,7 +273,7 @@ const QUESTIONS_DATA = [
       "D. Hà Lan"
     ],
     "level": "easy",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "24",
@@ -297,7 +297,7 @@ const QUESTIONS_DATA = [
       "D. 9"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "26",
@@ -345,7 +345,7 @@ const QUESTIONS_DATA = [
       "D. Hợp thời trang"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "30",
@@ -465,7 +465,7 @@ const QUESTIONS_DATA = [
       "D. Cả A, C"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "40",
@@ -549,7 +549,7 @@ const QUESTIONS_DATA = [
       "D. Nữ giới"
     ],
     "level": "easy",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "47",
@@ -657,7 +657,7 @@ const QUESTIONS_DATA = [
       "D. Khoanh chân"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "56",
@@ -693,7 +693,7 @@ const QUESTIONS_DATA = [
       "D. Không trò chuyện với ai"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "59",
@@ -729,7 +729,7 @@ const QUESTIONS_DATA = [
       "D. Khách ngồi khi ăn"
     ],
     "level": "easy",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "62",
@@ -777,7 +777,7 @@ const QUESTIONS_DATA = [
       "D. Học vị"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "66",
@@ -789,7 +789,7 @@ const QUESTIONS_DATA = [
       "D. Sau khi kết thúc giao tiếp"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "67",
@@ -825,7 +825,7 @@ const QUESTIONS_DATA = [
       "D. Tại các bữa tiệc"
     ],
     "level": "easy",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "70",
@@ -909,7 +909,7 @@ const QUESTIONS_DATA = [
       "D. Đi so le về phía sau không có tay vịn"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "77",
@@ -921,7 +921,7 @@ const QUESTIONS_DATA = [
       "D. Tiễn khách"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "78",
@@ -1017,7 +1017,7 @@ const QUESTIONS_DATA = [
       "D. Thuyết phục hướng tới mục đích chung"
     ],
     "level": "easy",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "86",
@@ -1029,7 +1029,7 @@ const QUESTIONS_DATA = [
       "D. Năng lực"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "87",
@@ -1065,7 +1065,7 @@ const QUESTIONS_DATA = [
       "D. Tập trung theo dõi các hoạt động tiếp xúc"
     ],
     "level": "easy",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "90",
@@ -1149,7 +1149,7 @@ const QUESTIONS_DATA = [
       "D. Nhà đầu tư"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "97",
@@ -1161,7 +1161,7 @@ const QUESTIONS_DATA = [
       "D. Gián đoạn"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "98",
@@ -1173,7 +1173,7 @@ const QUESTIONS_DATA = [
       "D. Nhảy hiện đại"
     ],
     "level": "easy",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "99",
@@ -1233,7 +1233,7 @@ const QUESTIONS_DATA = [
       "D. Vị trí đối diện chủ tiệc"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "104",
@@ -1257,7 +1257,7 @@ const QUESTIONS_DATA = [
       "D. Nước hoa quả"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C1.106",
@@ -1293,7 +1293,7 @@ const QUESTIONS_DATA = [
       "D. Dao dĩa đặt tự do trên đĩa"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C1.109",
@@ -1305,7 +1305,7 @@ const QUESTIONS_DATA = [
       "D. Dao dĩa đặt tự do trên đĩa"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "C1.110",
@@ -1353,7 +1353,7 @@ const QUESTIONS_DATA = [
       "D. Vị trí đối diện chủ tiệc"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C1.104",
@@ -1377,7 +1377,7 @@ const QUESTIONS_DATA = [
       "D. Nước hoa quả"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C1.106",
@@ -1413,7 +1413,7 @@ const QUESTIONS_DATA = [
       "D. Dao dĩa đặt tự do trên đĩa"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C1.109",
@@ -1425,7 +1425,7 @@ const QUESTIONS_DATA = [
       "D. Dao dĩa đặt tự do trên đĩa"
     ],
     "level": "easy",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "C1.110",
@@ -1449,7 +1449,7 @@ const QUESTIONS_DATA = [
       "D. Cả A,B,C đều đúng"
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "C2.2",
@@ -1461,7 +1461,7 @@ const QUESTIONS_DATA = [
       "D. Nhắc lại tên đề tài, nói rõ mục đích, những vấn đề của bài nói chuyện"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C2.3",
@@ -1509,7 +1509,7 @@ const QUESTIONS_DATA = [
       "D. Nhíu mày, trán xuất hiện các đường rãnh dọc."
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "C2.7",
@@ -1521,7 +1521,7 @@ const QUESTIONS_DATA = [
       "D. Tùy vào âm lượng cài đặt sẵn của âm ly."
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "C2.8",
@@ -1605,7 +1605,7 @@ const QUESTIONS_DATA = [
       "D. Chia sẻ kinh nghiệm làm việc"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": "C2.15",
@@ -1653,7 +1653,7 @@ const QUESTIONS_DATA = [
       "D. Tên công ty (có thể cả địa chỉ công ty)"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C2.19",
@@ -1737,7 +1737,7 @@ const QUESTIONS_DATA = [
       "D. Khẳng định được quan điểm, lập trường"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C2.26",
@@ -1917,7 +1917,7 @@ const QUESTIONS_DATA = [
       "D. Thư thuyết phục"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "C2.41",
@@ -1941,7 +1941,7 @@ const QUESTIONS_DATA = [
       "D. Không quan trọng thời điểm nào"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": "C2.43",
@@ -1989,7 +1989,7 @@ const QUESTIONS_DATA = [
       "D. Không phát huy được tác dụng"
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C2.47",
@@ -2037,7 +2037,7 @@ const QUESTIONS_DATA = [
       "D. Không nhìn vào mắt người được phỏng vấn để tạo sự tự nhiên cho họ."
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C2.50",
@@ -2049,7 +2049,7 @@ const QUESTIONS_DATA = [
       "D. Ứng xử"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C2.52",
@@ -2061,7 +2061,7 @@ const QUESTIONS_DATA = [
       "D. Ứng xử"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": "C2.53",
@@ -2073,7 +2073,7 @@ const QUESTIONS_DATA = [
       "D. 2 m"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C2.54",
@@ -2121,7 +2121,7 @@ const QUESTIONS_DATA = [
       "D. Nói và Viết"
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C2.58",
@@ -2157,7 +2157,7 @@ const QUESTIONS_DATA = [
       "D. Ứng xử"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": "C2.61",
@@ -2241,7 +2241,7 @@ const QUESTIONS_DATA = [
       "D. Phương tiện quảng cáo duy nhất"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "C2.68",
@@ -2253,7 +2253,7 @@ const QUESTIONS_DATA = [
       "D. Tùy thuộc vào khả năng của người viết"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C2.69",
@@ -2361,7 +2361,7 @@ const QUESTIONS_DATA = [
       "D. Buông lỏng công tác kiểm tra giám sát vì nhân viên đã làm việc xuất sắc."
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C2.78",
@@ -2409,7 +2409,7 @@ const QUESTIONS_DATA = [
       "D. Câu hỏi hẹp"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "C2.82",
@@ -2421,7 +2421,7 @@ const QUESTIONS_DATA = [
       "D. Dò hỏi một cách gián tiếp."
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C2.83",
@@ -2481,7 +2481,7 @@ const QUESTIONS_DATA = [
       "D. Ghi lại những thông tin phản ánh của khách hàng."
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "C2.88",
@@ -2529,7 +2529,7 @@ const QUESTIONS_DATA = [
       "D. Trích dẫn"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": "C2.92",
@@ -2625,7 +2625,7 @@ const QUESTIONS_DATA = [
       "D. Phỏng vấn để lấy thông tin"
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "C2.100",
@@ -2637,7 +2637,7 @@ const QUESTIONS_DATA = [
       "D. Phỏng vấn chọn lọc"
     ],
     "level": "medium",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "C2.101",
@@ -2709,7 +2709,7 @@ const QUESTIONS_DATA = [
       "D. Xin lỗi khách hàng và hẹn họ thời gian cụ thể sẽ gọi lại cho họ"
     ],
     "level": "medium",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "C2.107",
@@ -2721,7 +2721,7 @@ const QUESTIONS_DATA = [
       "D. Nói to hơn"
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "A"
   },
   {
     "id": "C2.108",
@@ -2733,7 +2733,7 @@ const QUESTIONS_DATA = [
       "D. Tùy thuộc vào hoàn cảnh và sự hiểu biết của bản thân"
     ],
     "level": "medium",
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": "C2.109",
@@ -2757,7 +2757,7 @@ const QUESTIONS_DATA = [
       "D. Bản thân chúng ta sẽ gặp rắc rối lớn, tạo một hình ảnh bất lợi trong mắt lãnh đạo trực tiếp."
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "C2.111",
@@ -2817,7 +2817,7 @@ const QUESTIONS_DATA = [
       "D. Họ cho bạn thêm nhiều kinh nghiệm khi đi tuyển dụng và học hỏi nhiều điều bổ ích khác"
     ],
     "level": "medium",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C2.116",
@@ -2913,7 +2913,7 @@ const QUESTIONS_DATA = [
       "D. Gác máy và sẽ gọi lại sau để giải thích. Vì lúc này nói gì họ cũng không thể thông cảm."
     ],
     "level": "medium",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C2.124",
@@ -3020,7 +3020,7 @@ const QUESTIONS_DATA = [
       "D. 6"
     ],
     "level": "hard",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C3.3",
@@ -3056,7 +3056,7 @@ const QUESTIONS_DATA = [
       "D. 6"
     ],
     "level": "hard",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "C3.6",
@@ -3104,7 +3104,7 @@ const QUESTIONS_DATA = [
       "D. 12"
     ],
     "level": "hard",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "C3.10",
@@ -3164,7 +3164,7 @@ const QUESTIONS_DATA = [
       "D. Đánh giá bản thân và chuẩn bị nhân sự"
     ],
     "level": "hard",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C3.15",
@@ -3188,7 +3188,7 @@ const QUESTIONS_DATA = [
       "D. Bên thứ ba"
     ],
     "level": "hard",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "C3.17",
@@ -3212,7 +3212,7 @@ const QUESTIONS_DATA = [
       "D. Đàm phán phải dựa trên cơ sở pháp luật, lấy pháp luật làm chuẩn."
     ],
     "level": "hard",
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": "C3.19",
@@ -3224,7 +3224,7 @@ const QUESTIONS_DATA = [
       "D. Bầu không khí đàm phán và quá trình đàm phán"
     ],
     "level": "hard",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "C3.20",
@@ -3248,7 +3248,7 @@ const QUESTIONS_DATA = [
       "D. Nói nhanh, không vòng vo, thúc ép"
     ],
     "level": "hard",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "C3.22",
@@ -3320,7 +3320,7 @@ const QUESTIONS_DATA = [
       "D. Mang tính đối phó khi nhà đám phán đối diện với một vấn đề hay tình huống đột biến"
     ],
     "level": "hard",
-    "answer": "C"
+    "answer": "D"
   },
   {
     "id": "C3.28",
@@ -3356,7 +3356,7 @@ const QUESTIONS_DATA = [
       "D. Đối thoại"
     ],
     "level": "hard",
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": "C3.31",
@@ -3404,7 +3404,7 @@ const QUESTIONS_DATA = [
       "D. Sức ép th ời gian không cho phép kéo dài cu ộc đàm phán, k ết thúc là m ục tiêu trước mắt"
     ],
     "level": "hard",
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": "C3.35",
@@ -3416,7 +3416,7 @@ const QUESTIONS_DATA = [
       "D. Phía đối tác cần kết thúc nhanh"
     ],
     "level": "hard",
-    "answer": "D"
+    "answer": "C"
   },
   {
     "id": "C3.36",
@@ -3536,7 +3536,7 @@ const QUESTIONS_DATA = [
       "D. Yêu cầu của hai bên đều bất hợp lí."
     ],
     "level": "hard",
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": "C3.46",
@@ -3584,7 +3584,7 @@ const QUESTIONS_DATA = [
       "D. Áp dụng khi nhà đàm phán muốn bảo vệ một điểm cụ thể trong thỏa thuận"
     ],
     "level": "hard",
-    "answer": "D"
+    "answer": "A"
   },
   {
     "id": "C3.50",
@@ -3620,7 +3620,7 @@ const QUESTIONS_DATA = [
       "D. Đặt lợi ích của mình lên trên hết"
     ],
     "level": "hard",
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": "C3.53",
