@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Tập Giao Tiếp Trong Kinh Doanh</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements for Premium Look -->
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+    
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <i class="fa-solid fa-graduation-cap brand-icon"></i>
+                <h2>GTTKD<span>Quiz</span></h2>
+            </div>
+            
+            <nav class="nav-menu">
+                <button class="nav-item active" data-tab="dashboard" id="btn-tab-dashboard">
+                    <i class="fa-solid fa-house-chimney"></i> Trang Chủ
+                </button>
+                <button class="nav-item" data-tab="quiz" id="btn-tab-quiz">
+                    <i class="fa-solid fa-circle-play"></i> Luyện Tập
+                </button>
+                <button class="nav-item" data-tab="incorrect-book" id="btn-tab-incorrect">
+                    <i class="fa-solid fa-circle-exclamation"></i> Sổ Tay Câu Sai
+                    <span class="badge" id="incorrect-count">0</span>
+                </button>
+                <button class="nav-item" data-tab="all-questions" id="btn-tab-all">
+                    <i class="fa-solid fa-book-open"></i> Xem Tất Cả
+                </button>
+            </nav>
+            
+            <div class="stats-panel">
+                <h3>Thống Kê Của Bạn</h3>
+                <div class="stat-row">
+                    <span class="stat-label"><i class="fa-solid fa-bullseye"></i> Độ Chính Xác</span>
+                    <span class="stat-val" id="stats-accuracy">0%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><i class="fa-solid fa-fire"></i> Chuỗi Đúng (Streak)</span>
+                    <span class="stat-val" id="stats-streak">0</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label"><i class="fa-solid fa-circle-check"></i> Đã Trả Lời</span>
+                    <span class="stat-val" id="stats-answered">0/300</span>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h1 id="header-heading">Trang Chủ</h1>
+                    <p id="header-sub">Học và ôn tập hiệu quả cùng GTTKD Quiz</p>
+                </div>
+                <button class="btn btn-secondary reset-btn" id="btn-reset-data">
+                    <i class="fa-solid fa-rotate-left"></i> Xóa Lịch Sử
+                </button>
+            </header>
+            
+            <!-- Tab Contents -->
+            <div class="tab-contents">
+                
+                <!-- 1. DASHBOARD TAB -->
+                <section class="tab-panel active" id="panel-dashboard">
+                    <div class="welcome-banner">
+                        <div class="banner-text">
+                            <h2>Chào mừng bạn đến với GTTKD Quiz!</h2>
+                            <p>Bộ câu hỏi trắc nghiệm ôn tập môn Giao tiếp trong Kinh doanh gồm 300 câu hỏi, chia làm 3 mức độ dễ, trung bình, khó giúp bạn ôn thi hiệu quả nhất.</p>
+                            <button class="btn btn-primary" onclick="switchTab('quiz')">Bắt đầu ngay <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                        <div class="banner-img">
+                            <i class="fa-solid fa-brain-circuit"></i>
+                        </div>
+                    </div>
+                    
+                    <h2 class="section-title">Chọn Độ Khó Luyện Tập</h2>
+                    
+                    <div class="levels-grid">
+                        <!-- Easy Level Card -->
+                        <div class="level-card easy" onclick="startQuizLevel('easy')">
+                            <div class="level-header">
+                                <span class="level-badge">Dễ</span>
+                                <i class="fa-solid fa-feather-pointed card-icon"></i>
+                            </div>
+                            <h3>Chương 1: Khái Quát Về Giao Tiếp</h3>
+                            <p>Câu hỏi lý thuyết cơ bản, các khái niệm, cấu trúc ấn tượng ban đầu, các hình thức và phương tiện giao tiếp.</p>
+                            <div class="card-footer">
+                                <div class="progress-container">
+                                    <span class="progress-lbl">Độ hoàn thành</span>
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar-fill" id="progress-easy" style="width: 0%"></div>
+                                    </div>
+                                    <span class="progress-percent" id="percent-easy">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Medium Level Card -->
+                        <div class="level-card medium" onclick="startQuizLevel('medium')">
+                            <div class="level-header">
+                                <span class="level-badge">Trung Bính</span>
+                                <i class="fa-solid fa-layer-group card-icon"></i>
+                            </div>
+                            <h3>Chương 2: Các Kỹ Năng Giao Tiếp Kinh Doanh</h3>
+                            <p>Kỹ năng thuyết trình, phỏng vấn nhân sự, viết email, đàm thoại điện thoại, kỹ năng lắng nghe và đặt câu hỏi.</p>
+                            <div class="card-footer">
+                                <div class="progress-container">
+                                    <span class="progress-lbl">Độ hoàn thành</span>
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar-fill" id="progress-medium" style="width: 0%"></div>
+                                    </div>
+                                    <span class="progress-percent" id="percent-medium">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Hard Level Card -->
+                        <div class="level-card hard" onclick="startQuizLevel('hard')">
+                            <div class="level-header">
+                                <span class="level-badge">Khó</span>
+                                <i class="fa-solid fa-shield-halved card-icon"></i>
+                            </div>
+                            <h3>Chương 3: Đàm Phán Kinh Doanh & Tình Huống</h3>
+                            <p>Các nguyên tắc đàm phán, phương pháp đàm phán Harvard, giải quyết bế tắc, xử lý các tình huống giao tiếp phức tạp.</p>
+                            <div class="card-footer">
+                                <div class="progress-container">
+                                    <span class="progress-lbl">Độ hoàn thành</span>
+                                    <div class="progress-bar-bg">
+                                        <div class="progress-bar-fill" id="progress-hard" style="width: 0%"></div>
+                                    </div>
+                                    <span class="progress-percent" id="percent-hard">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- 2. QUIZ TAB -->
+                <section class="tab-panel" id="panel-quiz">
+                    <div class="quiz-controls-top">
+                        <button class="btn btn-icon" id="btn-quiz-back" title="Quay lại Trang Chủ">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <div class="quiz-info-header">
+                            <span class="quiz-level-tag" id="current-quiz-level">Chưa chọn</span>
+                            <span class="quiz-progress-text" id="quiz-progress-counter">Câu 0/0</span>
+                        </div>
+                        <div class="quiz-timer">
+                            <i class="fa-regular fa-clock"></i> <span id="quiz-timer-val">00:00</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Quiz Progress Bar -->
+                    <div class="quiz-progress-line-bg">
+                        <div class="quiz-progress-line-fill" id="quiz-progress-fill" style="width: 0%"></div>
+                    </div>
+                    
+                    <!-- Quiz Card -->
+                    <div class="quiz-card-container">
+                        <div class="quiz-card" id="quiz-card">
+                            <div class="question-header">
+                                <span class="question-id" id="question-id">Q.00</span>
+                                <span class="question-difficulty" id="question-diff-badge">Dễ</span>
+                            </div>
+                            <h2 class="question-text" id="question-text">Câu hỏi đang tải...</h2>
+                            
+                            <div class="options-container" id="options-container">
+                                <!-- Options will be generated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quiz Navigation Buttons -->
+                    <div class="quiz-navigation">
+                        <button class="btn btn-secondary" id="btn-prev-question" disabled>
+                            <i class="fa-solid fa-arrow-left"></i> Câu Trước <kbd>←</kbd>
+                        </button>
+                        <div class="kbd-hints" id="kbd-hints">
+                            Nhấn <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd> để chọn đáp án &nbsp;·&nbsp; <kbd>Space</kbd> hoặc <kbd>→</kbd> để tiếp theo
+                        </div>
+                        <button class="btn btn-secondary" id="btn-next-question">
+                            Tiếp Theo <kbd>→</kbd> <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </section>
+                
+                <!-- 3. INCORRECT BOOK TAB -->
+                <section class="tab-panel" id="panel-incorrect-book">
+                    <div class="incorrect-header">
+                        <div class="incorrect-summary">
+                            <i class="fa-solid fa-circle-exclamation error-icon"></i>
+                            <div>
+                                <h2 id="incorrect-count-title">Bạn có 0 câu trả lời sai</h2>
+                                <p>Hãy luyện tập lại các câu hỏi này để nhớ lâu hơn. Mỗi khi bạn trả lời đúng ở đây, câu hỏi sẽ tự động được xóa khỏi danh sách.</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" id="btn-start-review-incorrect" disabled>
+                            <i class="fa-solid fa-bolt"></i> Ôn Tập Lại Câu Sai
+                        </button>
+                    </div>
+                    
+                    <div class="incorrect-list" id="incorrect-list-container">
+                        <!-- Incorrect questions list will be populated here -->
+                        <div class="empty-state">
+                            <i class="fa-solid fa-square-check"></i>
+                            <h3>Tuyệt vời!</h3>
+                            <p>Bạn không có câu hỏi sai nào cả. Hãy tiếp tục luyện tập nhé!</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- 4. ALL QUESTIONS TAB -->
+                <section class="tab-panel" id="panel-all-questions">
+                    <div class="filter-bar">
+                        <div class="search-box">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" id="search-input" placeholder="Tìm kiếm câu hỏi hoặc đáp án...">
+                        </div>
+                        <div class="filter-dropdowns">
+                            <select id="filter-level-select">
+                                <option value="all">Tất cả độ khó</option>
+                                <option value="easy">Dễ (Chương 1)</option>
+                                <option value="medium">Trung bình (Chương 2)</option>
+                                <option value="hard">Khó (Chương 3)</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="all-questions-list" id="all-questions-list-container">
+                        <!-- All questions will be populated here -->
+                    </div>
+                </section>
+                
+            </div>
+        </main>
+    </div>
+    
+    <!-- JS Scripts -->
+    <script src="questions-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
