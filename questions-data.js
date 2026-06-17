@@ -657,7 +657,7 @@ const QUESTIONS_DATA = [
       "D. Khoanh chân"
     ],
     "level": "easy",
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": "56",
